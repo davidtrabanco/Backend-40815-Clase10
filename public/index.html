@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Clase 8</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+</head>
+<body>
+    <h3>Desafío Clase 10</h3>
+
+    <div class="row">
+        <h5>Ingresar Nuevo Producto</h5>
+        <form action="/productos" method="post">
+            Nombre: <input type="text" name="title" required>
+            Precio: <input type="number" name="price" required>
+            Imagen: <input type="text" name="thumbnail">
+            <button class="button-primary">Agregar</button>
+        </form>
+    
+
+    </div>
+    
+
+    <h5>Catálogo</h5>
+    <button class="button"><a href="/productos/hbs">Catálogo HBS</a></button>
+    <button><a href="/productos/pug">Catálogo PUG</a></button>
+    <button><a href="/productos/ejs">Catálogo EJS</a></button>
+    <hr>
+
+    <!-- <h2>Ver Producto por Id</h2>
+    <form action="/api/productos" method="get">
+        id: <input type="number" name="id">
+        <button>Ver</button>
+    </form>
+    <hr> -->
+
+</body>
+</html>
